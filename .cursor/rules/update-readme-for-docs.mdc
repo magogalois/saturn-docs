@@ -1,0 +1,15 @@
+---
+description: Keep README updated when documentation changes
+alwaysApply: true
+---
+
+# README Documentation Index
+
+When adding, renaming, moving, or deleting documentation files, update `README.md` in the same change.
+
+Keep the README aligned with the current document structure:
+
+- Update the document organization table when a new major folder or documentation area is added.
+- Add newly planned or created documents to the appropriate roadmap or document list.
+- Remove or rename README references when document files are removed or renamed.
+- Do not list implementation-only assets as primary documentation entries.

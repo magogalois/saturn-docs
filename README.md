@@ -1,5 +1,12 @@
 # Saturn Docs
 
+![Documentation](https://img.shields.io/badge/docs-documentation-blue)
+![MAGO](https://img.shields.io/badge/MAGO-research-green)
+![Saturn](https://img.shields.io/badge/project-Saturn-orange)
+![Speech AI](https://img.shields.io/badge/topic-speech%20AI-purple)
+![Research](https://img.shields.io/badge/status-research-informational)
+![Markdown](https://img.shields.io/badge/format-markdown-black)
+
 Saturn Docs는 음성 기술을 중심으로 기술 개념, 모델 연구, Survey 자료, 응용 분야를 정리하는 문서 저장소입니다.
 
 현재는 음성 신호가 수집되고 디지털 데이터로 변환되는 과정부터 정리하고 있으며, 이후 음성 인식, 음성 합성, 화자 인식, 음성 에이전트 등으로 범위를 확장할 예정입니다.

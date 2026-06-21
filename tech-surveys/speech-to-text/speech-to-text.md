@@ -51,7 +51,7 @@
 
 ### 3.2 선정 전략 (하이브리드)
 
-```
+```text
 1. Canary로 빠른 PoC → 한영 성능 베이스라인 측정
         ↓
 2. 병행하여 Fast-Conformer 자체 파인튜닝 진행
@@ -60,7 +60,7 @@
    (Apache 2.0 + 스트리밍 + 최적화 성숙)
 ```
 
-**결론**
+### 결론
 
 - 빠른 검증 → **Canary** (baseline 측정 전용)
 - 상용 배포 → **Fast-Conformer** (라이선스 자유, 스트리밍, 경량화)
@@ -73,7 +73,7 @@
 
 ### 핵심: 통합 모델 + 통합 Vocabulary
 
-```
+```text
 오디오 스트림
     ↓
 Silero VAD
@@ -121,7 +121,7 @@ RNN-T Joint Network
 
 ## 6. 온프레미스 배포 스택
 
-```
+```text
 하드웨어
 └── GPU 서버 (A10G / L40S / A100급)
 
@@ -137,7 +137,7 @@ RNN-T Joint Network
 └── WER 샘플링 검증 + 내부 로깅
 ```
 
-**성능 목표**
+### 성능 목표
 
 - RTF(Real Time Factor) < 0.3
 - 청크 레이턴시 < 300ms

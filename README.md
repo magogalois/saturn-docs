@@ -17,6 +17,7 @@ Saturn Docs는 음성 기술을 중심으로 기술 개념, 모델 연구, Surve
 | --- | --- | --- | --- |
 | `tech-notes` | - | 기술 개념과 구현 원리를 설명하는 문서를 정리합니다. | 음성 기술 기초, 모델 구조, 시스템 구성, 구현 원리 |
 | `tech-notes` | `signal_processing` | 음성 신호 처리의 기초 내용을 정리합니다. | 음성 신호, 샘플링, 양자화, 코덱, DSP |
+| `tech-notes` | `feature_extraction` | 음성 특징 추출에 필요한 수학적·신호 처리 개념을 정리합니다. | FFT, STFT, Spectrogram, Mel-spectrogram, MFCC |
 | `tech-surveys` | - | 논문, 모델, 오픈소스, 제품, 벤치마크 등 Survey 자료를 정리할 예정입니다. | 모델 비교, 기술 동향, 데이터셋, 평가 기준 |
 
 ## 현재 문서
@@ -25,6 +26,9 @@ Saturn Docs는 음성 기술을 중심으로 기술 개념, 모델 연구, Surve
 | --- | --- |
 | [`speech_signal.md`](tech-notes/signal_processing/speech_signal.md) | 음성 신호가 물리적 음압에서 전기 신호, 디지털 신호로 변환되는 과정을 정리합니다. |
 | [`speech_signal_processing.md`](tech-notes/signal_processing/speech_signal_processing.md) | 전처리, 프레이밍, 윈도우 함수, 특징 추출, 후처리 등 음성 신호 처리 파이프라인을 정리합니다. |
+| [`FFT.md`](tech-notes/feature_extraction/FFT.md) | Fourier Transform, DFT, FFT의 원리와 음성 특징 추출에서의 활용을 정리합니다. |
+| [`speech-to-text.md`](tech-surveys/speech-to-text/speech-to-text.md) | 한영 코드스위칭 STT 개발 전략과 모델 선정 방향을 정리합니다. |
+| [`fast-conformer.md`](tech-surveys/speech-to-text/fast-conformer.md) | Fast-Conformer 구조, RNN-T, attention 전략, 실시간 STT 적용 방안을 정리합니다. |
 
 ## 주요 연구 주제
 
@@ -35,6 +39,7 @@ Saturn Docs는 음성 기술을 중심으로 기술 개념, 모델 연구, Surve
 - Sampling rate, Nyquist theorem, aliasing
 - Quantization, codec, PCM, DSP
 - 잡음 제거, 필터링, 특징 추출
+- FFT, STFT, Spectrogram, Mel-spectrogram, MFCC
 
 ### 음성 모델
 
